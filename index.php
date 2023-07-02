@@ -21,6 +21,10 @@
                     <label for="censuratorText" class="form-label">Inserisci il testo che vuoi censurare:</label>
                     <textarea class="form-control" name="text_area" id="text_area" rows="10"></textarea>
                 </div>
+                <div class="col-6 mb-3">
+                    <label for="censored" class="form-label">Inserisci la parola che vuoi censurare:</label>
+                    <input type="text" class="form-control" name="censored_word" id="censoredWord">
+                </div>
                 <div class="col-3 text-center">
                 <input class="btn btn-primary" type="submit" value="invia dati">
                 </div>
