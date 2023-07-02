@@ -4,29 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Badwords</title>
     <style>
-        form {
-            display: flex;
-            flex-direction: column;
-            width: 200px;
-            padding: 40px;
-        }
-
-        input {
-            margin: 10px 0;
-        }
+ 
     </style>
 </head>
 
 <body>
-    <h1>form esempio</h1>
     <form action="backend.php" method="POST">
-        <label for="nome">nome</label>
-        <input type="text" id="nome" name="nome" placeholder="inserisci il nome">
-        <label for="cognome">cognome</label>
-        <input type="text" name="cognome" id="cognome" placeholder="inserisci il cognome">
-        <input type="submit" value="invia dati">
+        <div class="container">
+            <div class="row justify-content-center align-items-center flex-column">
+                <div class="col-6 mb-5">
+                    <h1 class="text-center mb-5">Censurator 9000</h1>
+                    <label for="censurator9000" class="form-label">Inserisci il testo che vuoi censurare:</label>
+                    <textarea class="form-control" id="censuratorText" rows="10"></textarea>
+                </div>
+                <div class="col-3 text-center">
+                <input class="btn btn-primary" type="submit" value="invia dati">
+                </div>
+            </div>
+        </div>
     </form>
 </body>
 

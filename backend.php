@@ -1,5 +1,5 @@
 <?php
-    echo 'ciao '. $_POST['nome'] . ' ' . $_POST['cognome'];
+
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +12,6 @@
     <title>Badwords</title>
 </head>
 <body>
-
+    
 </body>
 </html>
