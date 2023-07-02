@@ -18,8 +18,8 @@
             <div class="row justify-content-center align-items-center flex-column">
                 <div class="col-6 mb-5">
                     <h1 class="text-center mb-5">Censurator 9000</h1>
-                    <label for="censurator9000" class="form-label">Inserisci il testo che vuoi censurare:</label>
-                    <textarea class="form-control" id="censuratorText" rows="10"></textarea>
+                    <label for="censuratorText" class="form-label">Inserisci il testo che vuoi censurare:</label>
+                    <textarea class="form-control" name="text_area" id="text_area" rows="10"></textarea>
                 </div>
                 <div class="col-3 text-center">
                 <input class="btn btn-primary" type="submit" value="invia dati">

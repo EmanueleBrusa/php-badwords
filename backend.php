@@ -1,5 +1,8 @@
 <?php
-
+    $textAreaContent = $_POST['text_area'];
+    var_dump($textAreaContent);
+    $textAreaLenght = strlen($textAreaContent); //non capisco perché non è precisa la conta delle parole
+    var_dump($textAreaLenght);
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +15,6 @@
     <title>Badwords</title>
 </head>
 <body>
-    
+
 </body>
 </html>
